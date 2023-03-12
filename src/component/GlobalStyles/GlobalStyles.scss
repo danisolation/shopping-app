@@ -1,0 +1,43 @@
+@import 'normalize.css';
+
+:root {
+    --primary: #262626;
+    --black: #000;
+    --white: #fff;
+    --text-color: #262626;
+
+    //Default Layout
+    --default-layout-header-height: 60px;
+    --default-layout-width: 1130px;
+    --default-layout-horizontal-spacer: 24px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: '-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, sans-serif',
+        sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.6;
+    text-rendering: optimizespeed;
+    color: var(--text-color);
+}
+
+button,
+input,
+[tabindex] {
+    outline: none;
+    border: none;
+}
+
+a[href] {
+    text-decoration: none;
+}
