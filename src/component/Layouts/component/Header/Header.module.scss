@@ -1,0 +1,31 @@
+.wrapper {
+    height: 50px;
+    width: 100%;
+    background-color: var(--primary);
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    z-index: 1;
+}
+
+.container {
+    display: flex;
+    width: var(--default-layout-width);
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px;
+    line-height: 1.6rem;
+}
+
+.auth {
+    width: 350.4px;
+    & li {
+        margin-left: 171.2px;
+    }
+}
+
+.list {
+    position: absolute;
+    top: -10px;
+    padding-top: 7px;
+}
