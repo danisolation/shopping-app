@@ -37,7 +37,7 @@ function Item({
         disabled,
     });
     return (
-        <div className={classes}>
+        <div className={classes} {...passProps}>
             <div className={cx('container')}>
                 <div className={cx('box-img')}>
                     <Link to={to}>

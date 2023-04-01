@@ -22,48 +22,7 @@ function Footer() {
                         </p>
                     </div>
                 </div>
-                <div className={cx('col')}>
-                    <div className={cx('col-inner')}>
-                        <h4>Chính sách</h4>
-                        <ul>
-                            <li>
-                                <a href="">
-                                    <span>a</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span>a</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span>a</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span>a</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span>a</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span>a</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span>a</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+                <div className={cx('col')}></div>
                 <div className={cx('col')}>
                     <div className={cx('col-inner')}>
                         <h4>Thông tin liên hệ</h4>
