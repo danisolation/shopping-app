@@ -50,76 +50,7 @@ function Header() {
                         </Button>
                     </div>
                 </Tippy>
-                <Tippy
-                    interactive
-                    placement="bottom-start"
-                    render={(attrs) => (
-                        <div className={cx('list')} tabIndex="-1" {...attrs}>
-                            <Button key="1" sub>
-                                Trang Chủ
-                            </Button>
-                            <Button key="2" sub>
-                                Trang Chủ
-                            </Button>
-                            <Button key="3" sub>
-                                Trang Chủ
-                            </Button>
-                            <Button key="4" sub>
-                                Trang Chủ
-                            </Button>
-                            <Button key="5" sub>
-                                Trang Chủ
-                            </Button>
-                            <Button key="6" sub>
-                                Trang Chủ
-                            </Button>
-                            <Button key="7" sub>
-                                Trang Chủ
-                            </Button>
-                        </div>
-                    )}
-                >
-                    <div>
-                        <Button to={'/policy'} rightIcon={<FontAwesomeIcon icon={faAngleDown} />}>
-                            Chính sách
-                        </Button>
-                    </div>
-                </Tippy>
-                <Tippy
-                    interactive
-                    placement="bottom-start"
-                    render={(attrs) => (
-                        <div className={cx('list')} tabIndex="-1" {...attrs}>
-                            <Button key="1" sub>
-                                Trang Chủ
-                            </Button>
-                            <Button key="2" sub>
-                                Trang Chủ
-                            </Button>
-                            <Button key="3" sub>
-                                Trang Chủ
-                            </Button>
-                            <Button key="4" sub>
-                                Trang Chủ
-                            </Button>
-                            <Button key="5" sub>
-                                Trang Chủ
-                            </Button>
-                            <Button key="6" sub>
-                                Trang Chủ
-                            </Button>
-                            <Button key="7" sub>
-                                Trang Chủ
-                            </Button>
-                        </div>
-                    )}
-                >
-                    <div>
-                        <Button to={'/help'} rightIcon={<FontAwesomeIcon icon={faAngleDown} />}>
-                            Trợ giúp
-                        </Button>
-                    </div>
-                </Tippy>
+
                 <Button to={'/news'}>Tin tức</Button>
                 <Button to={'/contact'}>Liên Hệ</Button>
                 <ul className={cx('auth')}>

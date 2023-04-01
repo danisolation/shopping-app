@@ -2,6 +2,7 @@ import Item from '~/component/Item';
 import { ItemsWrapper } from '~/component/Wrapper/ItemsWrapper';
 import { ShoppingWrapper } from '~/component/Wrapper/ShoppingWrapper';
 import images from '~/assets/images';
+import Search from './Search';
 
 const ITEMS = [
     {
@@ -29,6 +30,7 @@ const ITEMS = [
 function Home() {
     return (
         <ShoppingWrapper>
+            <Search />
             <ItemsWrapper>
                 {ITEMS.map((item, index) => (
                     <Item key={index} data={item} to="/#" />
