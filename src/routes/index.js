@@ -8,7 +8,7 @@ import Camera from '~/pages/Product/Camera';
 import News from '~/pages/News';
 
 import Shop from '~/pages/Shop';
-
+import SideBar from '~/pages/SideBar';
 // Public Routes
 const publicRoutes = [
     { path: '/', component: Home },
@@ -19,6 +19,7 @@ const publicRoutes = [
     { path: '/news', component: News },
 
     { path: '/shop', component: Shop },
+    { path: '/sidebar', component: SideBar },
 ];
 
 const privateRoutes = [];
