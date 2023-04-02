@@ -15,9 +15,9 @@ function Footer() {
                         <h4>LATISH</h4>
                         <p>
                             <span>
-                                WEBDEMO.COM là blog cá nhân chia sẻ những kiến thức đồ họa và kinh nghiệm làm website
-                                Wordpress cho tất cả mọi người. Mình rất yêu thích Nghệ thuật Thánh và Đồ họa Công giáo.
-                                Rất mong được kết bạn với đông đảo anh em Designer gần xa.
+                                Chào mừng bạn đến với Latish - trang thương mại điện tử hàng đầu trong lĩnh vực mua bán
+                                đồ second-hand. Tại Latish, chúng tôi cam kết cung cấp cho bạn một trải nghiệm mua sắm
+                                trực tuyến tuyệt vời, với các sản phẩm chất lượng và giá cả hợp lý.
                             </span>
                         </p>
                     </div>
