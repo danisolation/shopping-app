@@ -1,5 +1,5 @@
 import classNames from 'classnames/bind';
-import styles from './Camera.module.scss';
+import styles from './Watch.module.scss';
 import { ShoppingWrapper } from '~/component/Wrapper/ShoppingWrapper';
 import { ItemsWrapper } from '~/component/Wrapper/ItemsWrapper';
 import images from '~/assets/images';
@@ -32,7 +32,7 @@ const ITEMS = [
 
 const cx = classNames.bind(styles);
 
-function Camera() {
+function Watch() {
     const [quantity, setQuantity] = useState(1);
     const handleAdd = () => {
         setQuantity(quantity + 1);
@@ -47,19 +47,18 @@ function Camera() {
                 <div className={cx('wrapper')}>
                     <div className={cx('left')}>
                         <div className={cx('col')}>
-                            <img src={images.image1} alt="Camera" />
+                            <img src={images.image2} alt="Watch" />
                         </div>
                         <div className={cx('col')}>
-                            <h1>Camera Ngụy Trang Bật Lửa IFocus BL02</h1>
+                            <h1>Camera ngụy trang đồng hồ treo tường iFocus ST27</h1>
                             <p className={cx('price')}>
-                                1.560.000 <FontAwesomeIcon icon={faDongSign} />
+                                810.000 <FontAwesomeIcon icon={faDongSign} />
                             </p>
                             <div className={cx('short-des')}>
                                 <p>
-                                    Camera ngụy trang bật lửa plasma được bán độc quyền trên Hàng Tốt Nhập Khẩu. Dòng
-                                    sản phẩm quay ngụy trang cao cấp với thiết kế bằng chất liệu kim loại sang trọng.
-                                    Cẩm trên tay bạn sẽ thực hiện thao tác quay dễ dàng, nhanh chóng với chất lượng
-                                    video siêu nét.
+                                    Sản phẩm giúp bạn giám sát hiệu không gian gia đình, văn phòng làm việc. Thiết kế
+                                    ngụy trang đồng hồ treo tường hoàn toàn kín đáo, bí mật. Camera ngụy trang đồng hồ
+                                    treo tường ST27 hỗ trợ kết nối wifi xem và điều khiển từ xa qua điện thoại.
                                 </p>
                             </div>
                             <div className={cx('quantity')}>
@@ -81,18 +80,13 @@ function Camera() {
                                 <p className={cx('sub-header')}>Thông tin chi tiết</p>
                                 <div className={cx('accordion-inner')}>
                                     <p>
-                                        <strong>Tính năng của Camera ngụy trang bât lửa IFocus BL02:</strong>
+                                        <strong>
+                                            Tính năng đặc điểm của Camera ngụy trang đồng đồ treo tường Ifocus ST27:
+                                        </strong>
                                     </p>
                                     <ul>
-                                        <li>
-                                            Camera ngụy trang bật lửa Plasma được thiết kế dưới dạng bật lửa với kích
-                                            thước siêu nhỏ và tinh xảo giúp cho bạn dễ dàng mang theo bên người và sử
-                                            dụng quay phim bất cứ lúc nào.
-                                        </li>
-                                        <li>
-                                            Với độ phân giải video FullHD 1080P cho video sắc nét, chân thực và sống
-                                            động.
-                                        </li>
+                                        <li>Mắt camera nằm ở số 2 trên mặt đồng hồ.</li>
+                                        <li>Quay phim cho chất lượng cao Full HD 1080P.</li>
                                         <li>
                                             Có góc quay rộng 180 độ, bạn có thể điều chỉnh góc quay bằng tay theo ý muốn
                                             1 cách dễ dàng.
@@ -164,4 +158,4 @@ function Camera() {
     );
 }
 
-export default Camera;
+export default Watch;
