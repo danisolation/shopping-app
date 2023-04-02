@@ -11,7 +11,9 @@ function Button({
     sub = false,
     hotline = false,
     disabled = false,
+    order = false,
     children,
+    style,
     className,
     leftIcon,
     rightIcon,
@@ -47,10 +49,11 @@ function Button({
         sub,
         hotline,
         disabled,
+        order,
     });
 
     return (
-        <Comp className={classes} {...props}>
+        <Comp style={style} className={classes} {...props}>
             {leftIcon && <span className={cx('icon')}>{leftIcon}</span>}
             <span className={cx('title')}>{children}</span>
             {rightIcon && <span className={cx('icon')}>{rightIcon}</span>}
