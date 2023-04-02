@@ -6,7 +6,7 @@ import Introduction from '~/pages/Introduction';
 import Contact from '~/pages/Contact';
 import Camera from '~/pages/Product/Camera';
 import News from '~/pages/News';
-
+import Watch from '~/pages/Product/Watch';
 import Shop from '~/pages/Shop';
 import SideBar from '~/pages/SideBar';
 // Public Routes
@@ -15,9 +15,8 @@ const publicRoutes = [
     { path: '/introduction', component: Introduction },
     { path: '/contact', component: Contact },
     { path: '/product/camera', component: Camera },
-
+    { path: '/product/watch', component: Watch },
     { path: '/news', component: News },
-
     { path: '/shop', component: Shop },
     { path: '/sidebar', component: SideBar },
 ];

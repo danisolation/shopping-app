@@ -15,7 +15,7 @@ const ITEMS = [
         img: images.image2,
         des: 'Camera ngụy trang đồng hồ treo tường iFocus ST27',
         price: '810.000',
-        to: '/#',
+        to: '/product/watch',
     },
     {
         img: images.image3,
