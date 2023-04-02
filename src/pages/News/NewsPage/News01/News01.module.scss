@@ -1,0 +1,31 @@
+.header {
+    padding-bottom: 1.5em;
+
+    h6 {
+        font-size: 0.7em;
+        font-weight: 700;
+        margin-bottom: 0.5em;
+        a {
+            color: #f8931e;
+        }
+    }
+
+    h1 {
+        font-size: 22px;
+        margin-bottom: 0.5em;
+    }
+
+    .post {
+        font-size: 15px;
+        color: gray;
+        span {
+            color: #f8931e;
+        }
+    }
+}
+
+.content {
+    p {
+        margin-bottom: 1.3em;
+    }
+}

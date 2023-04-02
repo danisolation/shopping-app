@@ -50,12 +50,19 @@ function Item({
                             <Link to={to}>{data.des}</Link>
                         </p>
                     </div>
-                    <div className={cx('price')}>
-                        <span>
-                            {data.price}
-                            <FontAwesomeIcon icon={faDongSign} />
-                        </span>
-                    </div>
+                    {data.price && (
+                        <div className={cx('price')}>
+                            <span>
+                                {data.price}
+                                <FontAwesomeIcon icon={faDongSign} />
+                            </span>
+                        </div>
+                    )}
+                    {data.title && (
+                        <div className={cx('sub-title')}>
+                            <span>{data.title}</span>
+                        </div>
+                    )}
                 </div>
             </div>
         </div>

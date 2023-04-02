@@ -9,6 +9,7 @@ import News from '~/pages/News';
 import Watch from '~/pages/Product/Watch';
 import Shop from '~/pages/Shop';
 import SideBar from '~/pages/SideBar';
+import News01 from '~/pages/News/NewsPage/News01';
 // Public Routes
 const publicRoutes = [
     { path: '/', component: Home },
@@ -17,6 +18,7 @@ const publicRoutes = [
     { path: '/product/camera', component: Camera },
     { path: '/product/watch', component: Watch },
     { path: '/news', component: News },
+    { path: '/news/news01', component: News01 },
     { path: '/shop', component: Shop },
     { path: '/sidebar', component: SideBar },
 ];
