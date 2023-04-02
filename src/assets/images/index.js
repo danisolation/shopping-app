@@ -3,6 +3,7 @@ const images = {
     image2: require('~/assets/images/2.jpg'),
     image3: require('~/assets/images/3.jpg'),
     image4: require('~/assets/images/4.jpg'),
+    image5: require('~/assets/images/news1.jpg'),
 };
 
 export default images;
