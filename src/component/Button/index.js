@@ -1,5 +1,5 @@
 import classNames from 'classnames/bind';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import styles from './Button.module.scss';
 
 const cx = classNames.bind(styles);
@@ -7,6 +7,7 @@ const cx = classNames.bind(styles);
 function Button({
     to,
     href,
+
     auth = false,
     sub = false,
     hotline = false,
@@ -37,7 +38,7 @@ function Button({
 
     if (to) {
         props.to = to;
-        Comp = Link;
+        Comp = NavLink;
     } else if (href) {
         props.href = href;
         Comp = 'a';
